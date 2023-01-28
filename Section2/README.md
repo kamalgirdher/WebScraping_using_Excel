@@ -18,7 +18,7 @@ If you are just starting with VBA, I would suggest to watch & follow my youtube 
 **Playlist:** [Excel VBA(macros) Step by Step](https://www.youtube.com/watch?v=hPrfOYBDGs8&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93)
 
 <p align="center">
-<a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="https://giphy.com/embed/kaTTFDBdUsR5gqy5l8" width="30%" height="30%"></a>
+<a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="../images/giphy.gif"></a>
 </p>
 
 
