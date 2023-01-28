@@ -7,7 +7,7 @@ In our [previous course](https://www.youtube.com/watch?v=F0tW5hzUTRw&list=PL1R_H
 
 
 ### Disclaimer
-** SCRAPING IS NOT ILLEGAL**, unless you are scraping your own website or blog. We therefore do not promote Data Scraping in any way. Before you continue with this course, you accept that you won't misuse the content for any unauthorized or illegal activity.
+**SCRAPING IS NOT ILLEGAL**, unless you are scraping your own website or blog. We therefore do not promote Data Scraping in any way. Before you continue with this course, you accept that you won't misuse the content for any unauthorized or illegal activity.
 
 ### Course Resources
 
