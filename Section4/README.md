@@ -26,3 +26,15 @@ In this course, we will primarily talk about florentbr/SeleniumBasic.
 - Then you can select if you want to install firefox IDE plugin. This plugin is useful to record the actions/steps and later those can be used as it is. Again, this is also optional.
 
 ![installer_seleniumIDE](../images/installer2_seleniumIDE.jpg)
+
+
+### Selenium Overview
+
+Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. [source : seleniumhq.org]
+
+To learn more about selenium, refer [selenium official website](https://www.seleniumhq.org/)
+
+SeleniumLibrary is a web testing library for Robot Framework that utilizes the Selenium tool internally.
+
+
+### Opening and Closing browser
