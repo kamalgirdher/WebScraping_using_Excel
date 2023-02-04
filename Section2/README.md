@@ -162,7 +162,26 @@ End Select
 
 End Sub
 ```
-[Watch Complete Tutorial](https://www.youtube.com/watch?v=QNosohYSNzE&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=5)
+[Watch Complete Tutorial](https://www.youtube.com/watch?v=SS5Wdd_ER2U&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=8)
+
+
+
+### Loop statements
+
+Loops are one of the most powerful programming tools in VBA, and they allow users to repeat the same code block multiple times until a specific point is attained or a given condition is met. 
+
+[Watch Loop Statements Complete Tutorial](https://www.youtube.com/watch?v=-D5KJiqIcjc&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=16)
+
+[Watch - Loops in 1d](https://www.youtube.com/watch?v=nvlz7MyblQU&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=17)
+
+[Watch - Loops in 2d](https://www.youtube.com/watch?v=TJXDkBmjSmE&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=18)
+
+[Watch - While..Wend Loop Tutorial](https://www.youtube.com/watch?v=ctPlFpjgluw&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=20)
+
+[Watch - Do... While Loop Tutorial](https://www.youtube.com/watch?v=4OhDQXiyD1w&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=21)
+
+[Watch - Do...Until loop Tutorial](https://www.youtube.com/watch?v=mXY5P2c8KU0&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=23)
+
 
 
 <a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="https://github.com/kamalgirdher/WebScraping_using_Excel/blob/main/images/subscribe.png"></a>
