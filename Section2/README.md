@@ -24,22 +24,17 @@ End Sub
 
 If you are just starting with VBA, I would suggest to watch & follow my youtube channel to learn VBA basics before moving ahead with this course.
 
-
 **VBA Complete Course** [Excel VBA(macros) Step by Step](https://www.youtube.com/watch?v=hPrfOYBDGs8&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93)
 
 To learn **ONLY** about functions and subprocedures, [watch this tutorial](PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93).
 
-
-
 ### Variables and Objects
-
 
 ##### Variables
 
 In any programming language, a variable is a value that can change, depending on conditions or on information passed to the program. It also provide a way of labeling data.
 
-In VBA, Variables can be declared as one of the following data types: Boolean, Byte, Integer, Long, Currency, Single, Double, Date, String (for variable-length strings), String * length (for fixed-length strings), Object, or Variant. If you don't specify a data type, the **Variant** data type is assigned by default
-
+In VBA, Variables can be declared as one of the following data types: Boolean, Byte, Integer, Long, Currency, Single, Double, Date, String (for variable-length strings), String \* length (for fixed-length strings), Object, or Variant. If you don't specify a data type, the **Variant** data type is assigned by default
 
 ```
 Dim a As Integer
@@ -50,6 +45,7 @@ a=10
 b="Kamal"
 c=100
 ```
+
 A variable name in vba need to follow these rules,
 
 - It must be less than 255 characters
@@ -58,7 +54,6 @@ A variable name in vba need to follow these rules,
 - Period is not permitted
 
 To learn more about variable, [watch this video](https://www.youtube.com/watch?v=33JmyY83IpA&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=3).
-
 
 ##### Objects
 
@@ -92,8 +87,82 @@ End Sub
 
 If this is unclear, do not worry. We will be creating objects of selenium webdriver and see the usage in detail.
 
-
 ### Conditional statements
+
+In VBA we have 2 conditional statements:
+
+- If .. Else .. End If
+- Select Case
+
+Both of these evaluate one or more conditions and, depending on the result, execute specific sections of code.
+
+##### If ... Then Statement
+
+The If ... Then statement tests a condition and if it evaluates to True, executes a specific section of code. If the condition evaluates to False, a different section of code is executed.
+
+```
+If Condition1 Then
+    ' Execute something
+ElseIf Condition2 Then
+    ' Execute something else
+.
+.
+.
+Else
+    ' Execute something if above conditions are not true
+End If
+```
+
+For example:
+
+```
+If ActiveCell.Value < 40 Then
+    ActiveCell.offset(0,1).value="Fail"
+ElseIf ActiveCell.Value < 80 Then
+    ActiveCell.offset(0,1).value="Pass"
+Else
+    ActiveCell.offset(0,1).value="OUSTANDING"
+End If
+```
+
+[Watch Tutorial](https://www.youtube.com/watch?v=QNosohYSNzE&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=5)
+
+If you want to see some examples using these conditional statements then these are good to start.
+
+[Largest of 2 numbers](https://www.youtube.com/watch?v=eFTOTMP0rYQ&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=6)
+
+[Largest of 3 numbers](https://www.youtube.com/watch?v=Mj2eOqTyhS8&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=7)
+
+##### Select Case Statement
+
+The Select Case statement is similar to the If ... Then statement, in that it tests an expression, and executes different sections of code, depending on the value of the expression.
+
+```
+Sub test()
+dayIndex = Weekday(Date)
+
+Select Case dayIndex
+    Case 1
+        MsgBox "Sunday"
+    Case 2
+        MsgBox "Monday"
+    Case 3
+        MsgBox "Tuesday"
+    Case 4
+        MsgBox "Wednesday"
+    Case 5
+        MsgBox "Thursday"
+    Case 6
+        MsgBox "Friday"
+    Case 7
+        MsgBox "Saturday"
+    Case Else
+        MsgBox "Invalid"
+End Select
+
+End Sub
+```
+[Watch Complete Tutorial](https://www.youtube.com/watch?v=QNosohYSNzE&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=5)
 
 
 <a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="https://github.com/kamalgirdher/WebScraping_using_Excel/blob/main/images/subscribe.png"></a>
