@@ -1,4 +1,4 @@
-## Web Scraping Concepts  
+# Web Scraping Concepts  
 
 ### Overview (possible solutions)
 VBA provides inbuilt libraries to automate Internet explorer. Since IE is now deprecated, there is a need for solution(s) that work for chrome, firefox and other browsers.
@@ -36,5 +36,6 @@ To learn more about selenium, refer [selenium official website](https://www.sele
 
 SeleniumLibrary is a web testing library for Robot Framework that utilizes the Selenium tool internally.
 
+![architecture](../images/seleniumBasicArchitecture.jpg)
 
 ### Opening and Closing browser
