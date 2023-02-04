@@ -13,7 +13,9 @@ In this course, we will primarily talk about florentbr/SeleniumBasic.
 
 ##### SeleniumBasic is a Selenium based browser automation framework for VB.Net, VBA and VBScript. 
 
-You can follow the steps below to automate Edge browser with SeleniumBasic:
+
+### Setup / Installation - SeleniumBasic
+
 - Download the latest version of [SeleniumBasic v2](https://github.com/florentbr/SeleniumBasic/releases/).
 
 - Install
