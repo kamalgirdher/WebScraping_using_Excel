@@ -24,7 +24,6 @@ End Sub
 
 If you are just starting with VBA, I would suggest to watch & follow my youtube channel to learn VBA basics before moving ahead with this course.
 
-<a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="https://github.com/kamalgirdher/WebScraping_using_Excel/blob/main/images/subscribe.png"></a>
 
 **Playlist:** [Excel VBA(macros) Step by Step](https://www.youtube.com/watch?v=hPrfOYBDGs8&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93)
 
@@ -95,3 +94,6 @@ If this is unclear, do not worry. We will be creating objects of selenium webdri
 
 
 ### Conditional statements
+
+
+<a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="https://github.com/kamalgirdher/WebScraping_using_Excel/blob/main/images/subscribe.png"></a>
