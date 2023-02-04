@@ -25,7 +25,7 @@ End Sub
 If you are just starting with VBA, I would suggest to watch & follow my youtube channel to learn VBA basics before moving ahead with this course.
 
 
-**Playlist:** [Excel VBA(macros) Step by Step](https://www.youtube.com/watch?v=hPrfOYBDGs8&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93)
+**VBA Complete Course** [Excel VBA(macros) Step by Step](https://www.youtube.com/watch?v=hPrfOYBDGs8&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93)
 
 To learn **ONLY** about functions and subprocedures, [watch this tutorial](PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93).
 
