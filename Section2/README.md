@@ -87,6 +87,8 @@ End Sub
 
 If this is unclear, do not worry. We will be creating objects of selenium webdriver and see the usage in detail.
 
+You may also [watch this tutorial.](https://www.youtube.com/watch?v=cPcNs5dlGPs&list=PL1R_HJw0CDYKYzExtZfhKZRddhwv5i-rg&index=3)
+
 ### Conditional statements
 
 In VBA we have 2 conditional statements:
@@ -182,6 +184,12 @@ Loops are one of the most powerful programming tools in VBA, and they allow user
 
 [Watch - Do...Until loop Tutorial](https://www.youtube.com/watch?v=mXY5P2c8KU0&list=PL1R_HJw0CDYIXDfzAR_fVUPfiB35okm93&index=23)
 
+
+### String Operations
+
+Irrespective of what data scraping technique we are using, we always need some pre and post processing of data to get it in clean format(the way we are expecting). String operations therefore play a key role in data scraping.
+
+You may [watch various String manipulation functions and techniques here.](https://www.youtube.com/watch?v=fM0dRsPSjf4&list=PL1R_HJw0CDYKYzExtZfhKZRddhwv5i-rg&index=6)
 
 
 <a href="https://www.youtube.com/c/xtremeexcel?sub_confirmation=1"><img src="https://github.com/kamalgirdher/WebScraping_using_Excel/blob/main/images/subscribe.png"></a>
