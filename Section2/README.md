@@ -189,6 +189,8 @@ Loops are one of the most powerful programming tools in VBA, and they allow user
 
 Irrespective of what data scraping technique we are using, we always need some pre and post processing of data to get it in clean format(the way we are expecting). String operations therefore play a key role in data scraping.
 
+To learn string functions, [watch this tutorial.](https://youtu.be/TqQZHAlb5BE)
+
 You may [watch various String manipulation functions and techniques here.](https://www.youtube.com/watch?v=fM0dRsPSjf4&list=PL1R_HJw0CDYKYzExtZfhKZRddhwv5i-rg&index=6)
 
 
