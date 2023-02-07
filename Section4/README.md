@@ -39,3 +39,20 @@ SeleniumLibrary is a web testing library for Robot Framework that utilizes the S
 ![architecture](../images/seleniumBasicArchitecture.jpg)
 
 ### Opening and Closing browser
+
+##-Example of Opening of browser
+
+`````
+Sub test()
+
+Dim driver As Selenium.WebDriver
+Set wShell = CreateObject("Wscript.Shell")
+    Set objShell = CreateObject("Shell.Application")
+Dim alert As Selenium.alert
+
+ Set driver = New Selenium.WebDriver
+
+driver.Start "edge" ' "https://google.com/"
+ end sub
+
+````````
