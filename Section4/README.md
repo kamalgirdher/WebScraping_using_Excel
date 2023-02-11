@@ -202,3 +202,22 @@ Set element = driver.FindElementByXPath("//input[@id='myInput']")
 ```
 
 When using these identification techniques in Selenium, it is important to choose the most appropriate one for the specific element you are trying to locate. If an element has a unique ID, it is usually best to use that method. However, if there are multiple elements with the same ID, you may need to use a different technique, such as class name or CSS selector. By choosing the most appropriate identification technique, you can ensure that your Selenium tests are reliable and accurate.
+
+
+### Limitations of basic identification techniques
+
+While the basic identification techniques in Selenium can be very effective in locating web elements on a page, they do have some limitations. Here are a few limitations to keep in mind:
+
+- **ID attribute** may not be present or unique: Not all elements have an ID attribute, and even if they do, the ID may not be unique on the page. This means that relying solely on ID for identification may not always be possible or reliable.
+
+- **Name attribute** may not be unique: Similarly, while the name attribute can be used to locate elements, it is not always guaranteed to be unique on a page. If there are multiple elements with the same name, it may be necessary to use other identification techniques.
+
+- **Class name** may not be unique: Similarly, while the class attribute can be used to locate elements, it is not always guaranteed to be unique on a page. If there are multiple elements with the same class, it may be necessary to use other identification techniques.
+
+- **Tag name** may not be specific enough: While locating elements by tag name can be useful for finding all elements of a certain type on a page, it may not always be specific enough for locating a specific element.
+
+- **Link text** may change: Elements such as links can be identified by their exact link text, but if the link text changes, the identification may no longer be valid.
+
+- **XPath and CSS selectors** can be complex: While XPath and CSS selectors can be powerful identification techniques, they can also be complex and difficult to write and maintain. Careful attention must be paid to the syntax and the specific structure of the page.
+
+In summary, while the basic identification techniques in Selenium can be very useful, it's important to keep their limitations in mind and to use them in conjunction with other techniques as necessary to ensure reliable and accurate identification of web elements.
