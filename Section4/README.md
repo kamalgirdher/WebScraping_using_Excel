@@ -35,7 +35,7 @@ To learn more about selenium, refer [selenium official website](https://www.sele
 
 SeleniumLibrary is a web testing library for Robot Framework that utilizes the Selenium tool internally.
 
-![architecture](../images/seleniumBasicArchitecture.jpg)
+![architecture]("../images/seleniumBasicArchitecture.jpg")
 
 
 If we deep diver further, we also need to understand the role of browser drivers. Basically, our code do not directly communicate with browsers. These browser communities also provide us browser drivers (eg. chromedriver, geckodriver, edgedriver)
