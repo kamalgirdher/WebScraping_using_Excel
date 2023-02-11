@@ -221,3 +221,32 @@ While the basic identification techniques in Selenium can be very effective in l
 - **XPath and CSS selectors** can be complex: While XPath and CSS selectors can be powerful identification techniques, they can also be complex and difficult to write and maintain. Careful attention must be paid to the syntax and the specific structure of the page.
 
 In summary, while the basic identification techniques in Selenium can be very useful, it's important to keep their limitations in mind and to use them in conjunction with other techniques as necessary to ensure reliable and accurate identification of web elements.
+
+
+### Object Identification using Xpath
+
+To learn various rules of writing XPATH, [watch this tutorial](https://youtu.be/aQjzMQKiweg).
+
+### Object Identification using CSS
+
+To learn various rules of writing CSS Selectors, [watch this tutorial](https://youtu.be/ehRFSje7Nlw).
+
+### Handling Elements
+
+### Textbox
+
+### Button
+
+### Radio Button
+
+### Checkbox
+
+### Listbox
+
+### Combobox
+
+### Table
+
+### Image
+
+### Link text
