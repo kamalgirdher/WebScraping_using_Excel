@@ -5,9 +5,9 @@ The basic structure of an HTML document consists of several parts:
 
 The <!DOCTYPE> declaration, which specifies the version of HTML being used.
 
-The **<html>** element, which contains all of the other elements on the page.
+The `<html>` element, which contains all of the other elements on the page.
 
-The <head> element, which contains information about the page that is not displayed to the user, such as the page title, meta tags, and links to stylesheets.
+The `<head>` element, which contains information about the page that is not displayed to the user, such as the page title, meta tags, and links to stylesheets.
 
 The <body> element, which contains all of the visible content on the page, such as text, images, and links.
 
@@ -38,7 +38,7 @@ HTML tags can also have attributes, which provide additional information about t
 
 Here are a few examples of common HTML tags:
 
-- **<h1>** to **<h6>**: heading tags to define headings and subheadings.
+- <h1> to <h6>: heading tags to define headings and subheadings.
 
 - <p>: paragraph tag to define a paragraph of text.
 
