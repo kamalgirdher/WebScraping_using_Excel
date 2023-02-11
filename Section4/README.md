@@ -104,3 +104,27 @@ End Sub
 
 ```
 
+### Basic Identification techniques
+
+Selenium is a popular testing tool for automating web applications, and one of its key features is its ability to identify and interact with web elements on a page. There are several techniques that can be used to identify web elements using Selenium:
+
+**By ID:** The most reliable and preferred method of identifying web elements is by using their unique ID attribute. An element's ID is a unique identifier assigned to it in the HTML code, and it can be used to locate the element in the page.
+
+**By Name:** Elements can also be identified using their name attribute. This method is useful when there are multiple elements on a page with the same ID.
+
+**By Class Name:** Elements can be identified using their class attribute. This method is useful when there are multiple elements on a page with the same name or ID.
+
+**By Tag Name:** Elements can be identified using their HTML tag name, such as div, p, or input. This method is useful when you want to locate all elements of a certain type on a page.
+
+**By Link Text:** Elements such as links can be identified using their exact link text. This method is useful for locating links that have unique text content.
+
+**By Partial Link Text:** This method is similar to identifying elements by link text, but it matches elements that contain the specified text as part of their link text. This can be useful when the link text is too long or changes dynamically.
+
+**By CSS Selector:** CSS selectors can be used to identify elements based on their location or relationship to other elements on the page. For example, you could identify an element based on its parent element, its sibling element, or its position on the page.
+
+**By XPath:** XPath is a language for selecting nodes in an XML document, and it can also be used to identify elements on a web page. XPath expressions can be used to locate elements based on their tag name, attributes, text content, and more.
+
+When using these identification techniques in Selenium, it is important to choose the most appropriate one for the specific element you are trying to locate. If an element has a unique ID, it is usually best to use that method. However, if there are multiple elements with the same ID, you may need to use a different technique, such as class name or CSS selector. By choosing the most appropriate identification technique, you can ensure that your Selenium tests are reliable and accurate.
+
+
+
