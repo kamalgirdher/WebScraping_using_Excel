@@ -104,6 +104,17 @@ End Sub
 
 ```
 
+Alternatively, you can write this was as well
+
+```
+Dim driver As New WebDriver
+driver.Start "chrome"
+driver.Get "https://www.extremeExcel.com"
+```
+
+Here we are declaring driver of type **Webdriver**, which is parent of all drivers like chromedriver, edgedriver etc. In terms of implementation, Webdriver is written in java and it is an interface. And chromedriver, edgedriver etc are classes which are implementing this interface. Well, this is off-topic and you may move forward even if you do not understand above statement.
+
+
 ### Basic Identification techniques
 
 Selenium is a popular testing tool for automating web applications, and one of its key features is its ability to identify and interact with web elements on a page. There are several techniques that can be used to identify web elements using Selenium:
