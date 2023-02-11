@@ -5,7 +5,7 @@ The basic structure of an HTML document consists of several parts:
 
 The <!DOCTYPE> declaration, which specifies the version of HTML being used.
 
-The `<html>` element, which contains all of the other elements on the page.
+The ```<html>``` element, which contains all of the other elements on the page.
 
 The `<head>` element, which contains information about the page that is not displayed to the user, such as the page title, meta tags, and links to stylesheets.
 
