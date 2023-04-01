@@ -33,8 +33,7 @@
 - Button
 - Radio Button
 - Checkbox
-- Listbox
-- Combobox
+- Select Dropdown
 - Table
 - Image
 - Link text
