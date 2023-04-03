@@ -241,9 +241,7 @@ To learn various rules of writing CSS Selectors, [watch this tutorial](https://y
 
 ### Checkbox
 
-### Listbox
-
-### Combobox
+### Select Dropdown
 
 ### Table
 
