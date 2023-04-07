@@ -94,6 +94,7 @@ Sub waitForScript()
     driver.Quit
 End Sub
 ```
+You can try rest of these yourself. Feel free to ask questions on Youtube if something doesn't work for you!
 
 - *WaitEnabled*: This method waits for an element to become enabled.
 
@@ -101,9 +102,151 @@ End Sub
 
 - *WaitText*: This method waits for an element to have specific text.
 
+### Alerts
+In Selenium Type Library for VBA, you can handle alerts using the SwitchToAlert method, which returns an Alert object representing the currently active alert dialog. Once you have the Alert object, you can use methods like Accept, Dismiss, and SendKeys to interact with the alert. For example:
 
-### Mouse over
-### Popups/Alerts
-### Multiple tabs
-### Multiple windows
-### File upload
+```
+Sub InfoAlert()
+    Dim driver As New ChromeDriver
+    driver.Get "https://the-internet.herokuapp.com/javascript_alerts"
+
+    ' Click on a link that opens a popup
+    driver.FindElementByXPath("//button[contains(text(),'Click for JS Alert')]").Click
+    
+    ' Switch to the alert and accept or dismiss it
+    Set Alert = driver.SwitchToAlert
+    
+    Alert.Accept ' Clicks "OK"
+    
+    Application.wait (Now + TimeValue("00:00:05"))
+
+    driver.Quit
+End Sub
+
+
+Sub ConfirmAlert()
+    Dim driver As New ChromeDriver
+    driver.Get "https://the-internet.herokuapp.com/javascript_alerts"
+
+    ' Click on a link that opens a popup
+    driver.FindElementByXPath("//button[contains(text(),'Click for JS Confirm')]").Click
+    
+    ' Switch to the alert and accept or dismiss it
+    Set Alert = driver.SwitchToAlert
+    
+    Alert.Accept ' Clicks "OK"
+    'Alert.Dismiss ' Clicks "Cancel
+    
+    Application.wait (Now + TimeValue("00:00:05"))
+
+    driver.Quit
+End Sub
+
+
+
+Sub PromptAlert()
+    Dim driver As New ChromeDriver
+    driver.Get "https://the-internet.herokuapp.com/javascript_alerts"
+
+    ' Click on a link that opens a popup
+    driver.FindElementByXPath("//button[contains(text(),'Click for JS Prompt')]").Click
+    
+    ' Switch to the alert and accept or dismiss it
+    Set Alert = driver.SwitchToAlert
+    Alert.SendKeys "XtremeExcel"
+    
+    Application.wait (Now + TimeValue("00:00:03"))
+    
+    'To accept the alert
+    Alert.Accept
+    
+    Application.wait (Now + TimeValue("00:00:05"))
+
+    driver.Quit
+End Sub
+
+```
+
+
+### Multiple windows and tabs
+
+In Selenium Type Library for VBA, you can handle multiple windows using the SwitchToWindow method. This method allows you to switch between windows by specifying either the window handle or the window title. Once you switch to a window, you can perform any actions you need to on that window, and then switch back to the original window when you're done.
+
+```
+Sub newWindow()
+Dim driver As New ChromeDriver
+
+driver.Get "https://nxtgenaiacademy.com/multiplewindows/"
+
+driver.FindElementByName("newbrowserwindow123").Click
+
+'Switch to new window
+driver.SwitchToNextWindow
+
+'Print New window top bar text on console
+Debug.Print driver.FindElementByCss("ul.top_bar_info>li").Text
+
+'Close opened window
+driver.Close
+
+Application.wait (Now + TimeValue("00:00:03"))
+
+'Switch to main window
+driver.SwitchToPreviousWindow
+
+Application.wait (Now + TimeValue("00:00:05"))
+
+driver.Quit
+End Sub
+
+
+
+Sub newTab()
+Dim driver As New ChromeDriver
+
+driver.Get "https://nxtgenaiacademy.com/multiplewindows/"
+
+driver.FindElementByName("145newbrowsertab234").Click
+
+'Switch to new window
+driver.SwitchToNextWindow
+
+'Print New window top bar text on console
+Debug.Print driver.FindElementByCss("ul.top_bar_info>li").Text
+
+'Close opened window
+driver.Close
+
+Application.wait (Now + TimeValue("00:00:03"))
+
+'Switch to main window
+driver.SwitchToPreviousWindow
+
+Application.wait (Now + TimeValue("00:00:05"))
+
+driver.Quit
+End Sub
+
+```
+
+### Frames
+
+In Selenium Type Library for VBA, you can handle frames using the SwitchToFrame method. This method allows you to switch to a particular frame on a webpage by specifying either the frame element or the frame index. Once you switch to a frame, you can interact with the elements inside the frame as if they were part of the main webpage. To switch back to the default content (i.e., the main webpage), you can use SwitchTo.DefaultContent.
+
+```
+Sub HandlingFrame()
+    Dim driver As New ChromeDriver
+
+    driver.Get "https://the-internet.herokuapp.com/iframe"
+
+    'Switch to frame
+    driver.SwitchToFrame ("mce_0_ifr")
+
+    'Print text from element inside frame
+    MsgBox driver.FindElementByCss("body p").Text
+
+    Application.wait (Now + TimeValue("00:00:05"))
+
+    driver.Quit
+End Sub
+```
