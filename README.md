@@ -40,11 +40,10 @@
 
 ### Section 5 - One level Deeper
 - Wait statements
-- Mouse over
-- Popups/Alerts
-- multiple tabs
-- Multiple windows
-- File upload
+- Alerts
+- Multiple Windows and tabs
+- Frames
 
 ### Section 6 - Real Project
-- Data Scraping and Processing Example
+- Single Page Scraping
+- Multi Page Scraping
